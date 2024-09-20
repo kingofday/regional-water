@@ -1,0 +1,58 @@
+{
+  "name": "regional-water",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "antd": "^5.0.2",
+    "axios": "^1.2.0",
+    "crypto-js": "^4.1.1",
+    "env-cmd": "^10.1.0",
+    "highcharts": "^10.3.3",
+    "i18next": "^22.0.6",
+    "react": "^18.2.0",
+    "react-anpicker": "^2.0.17",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-i18next": "^12.0.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "recoil": "^0.7.6",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "env-cmd -f ./env/.env.dev react-scripts start",
+    "build": "env-cmd -f ./env/.env.prod react-scripts --max_old_space_size=4096 build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/react-google-recaptcha": "^2.1.5"
+  }
+}

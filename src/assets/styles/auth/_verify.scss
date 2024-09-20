@@ -1,0 +1,13 @@
+#verify{
+    .count-down{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: 0.9rem;
+        }
+    }
+    .btn-resend{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

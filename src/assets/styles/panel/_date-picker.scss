@@ -1,0 +1,36 @@
+.anpicker {
+  .ant-input-affix-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .ant-btn {
+    height: 31px;
+    padding: 0 4px;
+  }
+
+  input {
+    &::-webkit-input-placeholder {
+      font-family: Vazir;
+      text-align: right;
+    }
+
+    &:-ms-input-placeholder {
+      font-family: Vazir;
+      text-align: right;
+    }
+
+    &::placeholder {
+      font-family: Vazir;
+      text-align: right;
+    }
+  }
+}
+.date-picker-form-item {
+  .ant-col {
+    position: static;
+  }
+  .ant-form-item-control-input {
+    position: static;
+  }
+}

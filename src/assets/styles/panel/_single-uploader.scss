@@ -1,0 +1,13 @@
+.single-uploader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .ant-upload-wrapper {
+        text-align: center;
+    }
+    .ant-form-item-control-input{
+        min-height: auto!important;
+    }
+}

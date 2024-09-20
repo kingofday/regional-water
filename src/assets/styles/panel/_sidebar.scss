@@ -1,0 +1,51 @@
+$bgColor: var(--blueActive);
+$color: var(--bg);
+$activeBgColor: var(--blue);
+.ant-layout-sider {
+  border-left: solid 1px var(--border);
+  background-color: $bgColor !important;
+  color: $color;
+  #menu {
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    .logo {
+      display: flex;
+      align-items: center;
+      padding: 10px 28px;
+      height: 64px;
+      gap: 0.625rem;
+      margin-bottom: 0.625rem;
+      font-size: 1.5rem;
+      img {
+        width: 50px;
+      }
+      strong {
+        color: $color;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+    .ant-menu {
+      max-width: 100%;
+      background-color: $bgColor !important;
+      .ant-menu-item,
+      .ant-menu-submenu > .ant-menu-submenu-title {
+        // border-radius: 0;
+        // margin-left: 0;
+        margin-right: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        // width: 100%;
+      }
+      .ant-menu-title-content,
+      .ant-menu-submenu-arrow {
+        color: $color;
+      }
+      .ant-menu-item.ant-menu-item-selected {
+        background-color: $activeBgColor;
+        color: $color;
+      }
+    }
+  }
+}

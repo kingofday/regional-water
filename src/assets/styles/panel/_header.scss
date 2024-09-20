@@ -1,0 +1,28 @@
+.ant-layout-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--border);
+    .user {
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+    }
+    .actions{
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+    }
+    #btn-toggle-menu {
+        display: none;
+    }
+    
+    @media(max-width: $sm) {
+        padding-inline: 1.5rem !important;
+        #btn-toggle-menu {
+            display: inline-flex;
+            padding: 0;
+        }
+    
+    }
+}

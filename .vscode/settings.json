@@ -1,0 +1,9 @@
+{
+    "nuxt.isNuxtApp": false,
+    "console-ninja.captureFunctions": true,
+    "cSpell.words": [
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}

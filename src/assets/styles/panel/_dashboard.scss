@@ -1,0 +1,27 @@
+#dashboard {
+  .info-box {
+    .ant-card-head-title {
+      color: var(--gray);
+    }
+    .ant-card-body {
+      display: flex;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      .value {
+        font-size: 2rem;
+      }
+      .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: solid 1px var(--border);
+        margin-top: 24px;
+        padding: 8px 24px;
+      }
+    }
+  }
+}

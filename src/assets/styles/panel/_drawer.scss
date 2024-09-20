@@ -1,0 +1,45 @@
+$bgColor: var(--blueActive);
+$color: var(--bg);
+$activeBgColor: var(--blue);
+
+.ant-drawer {
+    .anticon-close {
+        svg {
+            color: $color;
+        }
+    }
+
+    .ant-drawer-wrapper-body {
+        background-color: $bgColor;
+
+        #menu {
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 0.625rem;
+
+                strong {
+                    color: $color;
+                }
+            }
+
+            .ant-menu {
+                margin-top: 1rem;
+                border-inline-end: none;
+                background-color: $bgColor;
+                color: $color;
+
+                .ant-menu-title-content,
+                .ant-menu-submenu-arrow {
+                    color: $color;
+                }
+
+                .ant-menu-item.ant-menu-item-selected {
+                    background-color: $activeBgColor;
+                    color: $color;
+                }
+            }
+        }
+
+    }
+}
